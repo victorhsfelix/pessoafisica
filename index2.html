@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Formularios</title>
+	<style>
+	input {border: 0;
+		border-bottom: solid black 1px;
+		outline: none;}
+		
+	table {font-family: arial;
+			border-radius: 20px;}
+	td {border-radius: 20px;}
+	th {border-radius: 20px;}
+	</style>
+</head>
+<body>
+<table border="1" width="100%">
+	<tr>
+	<th colspan="1"><h1>Cadastro Pessoa Física</h1></th>
+	</tr>
+	<tr>
+		<td>
+		<br/>
+			<form method="post" action="">
+				<label for="nome"><b>Nome:</b></label>
+				<input id="nome" type=text required name=nome size="110"/>
+				<label for="estcivil"><b>Est.Civil:</b> </label>
+				<input id="estcivil" type=text required name=estcivil size="10"/>
+				<label for="datadenasc"><b>Data Nascimento:<b></label>
+				<input id="datadenasc" type=date required name=datadenasc/>
+				<br/>
+				<label for="localnascimento"><b>Local Nascimento:</b> </label>
+				<input id="localnascimento" type=text required name=localnascimento size="120"/>
+				<label for="rg"><b>RG:</b> </label>
+				<input id="rg" type=text required name=rg size=11"/>
+				<label for="cpf"><b>CPF:</b> </label>
+				<input id="cpf" type=text required name=cpf size="11"/>
+				<br/>
+				<label for="residencia"><b>Residência:</b> </label>
+				<input id="residencia" type=text required name=residencia size="170"/>
+				<br/>
+				<label for="fone"><b>Fone:</b> </label>
+				<input id="fone" type=text required name=fone size="17"/>
+				<label for="bairro"><b>Bairro:</b> </label>
+				<input id="bairro" type=text required name=bairro size="70"/>
+				<label for="cidade"><b>Cidade:</b> </label>
+				<input id="cidade" type=text required name=cidade size="63"/>
+				<br/>
+				<label for="tempo"><b>Há qto. tempo:</b> </label>
+				<input id="tempo" type=text required name=tempo size="35"/>
+				<label for="casa"><b>Casa própria?:</b> </label>
+				<input id="casa" type=text required name=casa size="17"/>
+				<label for="aluguel"><b>Aluguel R$:</b> </label>
+				<input id="aluguel" type=text required name=aluguel size="30"/>
+				<label for="pensao"><b>Pensão R$:</b> </label>
+				<input id="pensao" type=text required name=pensao size="27"/>
+				<br/>
+				<label for="resant"><b>Res. Ant.:</b> </label>
+				<input id="resant" type=text required name=resant size="49"/>
+				<label for="cid"><b>Cidade:</b> </label>
+				<input id="cid" type=text required name=cid size="56"/>
+				<label for="qtotempo"><b>Qto. Tempo:</b> </label>
+				<input id="qtotempo" type=text required name=qtotempo size="34"/>
+				<br/>
+				<label for="trabalho"><b>Local de Trabalho:</b> </label>
+				<input id="trabalho" type=text required name=trabalho size="74"/>
+				<label for="funçao"><b>Função:</b> </label>
+				<input id="funçao" type=text required name=funçao size="74"/>
+				<br/>
+				<label for="endereco"><b>Endereço:</b> </label>
+				<input id="endereco" type=text required name=endereco size="70"/>
+				<label for="city"><b>Cidade:</b> </label>
+				<input id="city" type=text required name=city size="59"/>
+				<label for="tel"><b>Fone:</b> </label>
+				<input id="tel" type=text required name=tel size="17"/>
+				<br/>
+				<label for="admitido"><b>Admitido:</b> </label>
+				<input id="admitido" type=date required name=admitido/>
+				<label for="reg"><b>Reg. no empregador:</b> </label>
+				<input id="reg" type=text required name=reg size="65"/>
+				<label for="salario"><b>Salário R$:</b> </label>
+				<input id="salario" type=text required name=salario size="45"/>
+				<br/>
+				<label for="emprego"><b>Emprego Ant.:</b> </label>
+				<input id="emprego" type=text required name=emprego size="111"/>
+				<label for="de"><b>de:</b> </label>
+				<input id="de" type=date required name=de/>
+				<label for="ate"><b>até:</b> </label>
+				<input id="ate" type=date required name=ate/>
+				
+				<input type=submit value="OK"/>
+
+			</form>
+		</td>
+	</tr>
+</table>
+</body>
+</html>
